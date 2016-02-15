@@ -7,19 +7,19 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71;
+  color: #7F7052;
   text-align: center;
 }
 
 .container {
-  max-width: 600px;
+  max-width: 800px;
   min-height: 800px;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
+  border-left: 1px solid #CCB383;
+  border-right: 1px solid #CCB383;
   margin: 0 auto;
   padding: 1rem 2rem;
   text-align: left;
-  background-color: #ccbbcf;
+  background-color: #ffe0a4;
 }
 
 section {
@@ -33,27 +33,27 @@ a {
     text-decoration: underline; }
 
 .button {
-    border: 2px solid #ccc;
-    background-color: #999;
-    color: #666;
+    border: 2px solid #CCB383;
+    background-color: #FFC657;
+    color: #7F7052;
     padding: 6px 13px;
     border-radius: 11px;
     margin: 1em 0;
 }
 
 .button:hover {
-  background-color: #666;
-  color: #000;
+  background-color: #7F7052;
+  color: #FFE0A4;
   text-decoration: none;
 }
 
 h2 {
-  color: #999;
+  color: #7F632C;
   font-size: 1.3em;
 }
 
 h3 {
-  color: #999;
+  color: #7F632C;
   font-size: 1em;
   text-transform: uppercase;
 }
@@ -65,7 +65,7 @@ h1 + h2 {
 hr {
   margin: 2rem 0;
   border: 1px none;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #CCB383;
 }
 
 h3 + hr {
@@ -75,18 +75,31 @@ h3 + hr {
 
 footer {
     font-size: 13px;
-    color: #ccc;
+    color: #7F632C;
 }
 
 
 /*Tables*/
 table {
-    width: 100%;
+    width: 95%;
 }
 
-table tr th {
-  border-bottom: 1px solid #999;
+ table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+th, td {
+padding: 7px 10px 10px;}
+th {
+
+  text-transform: uppercase;
+  font-size: 85%;
+  border-top: 1px solid #CCB383;
+  text-align: center;
 }
+tr:nth-child(even) {background: #CCB383}
+tr:nth-child(odd) {background: #FFE0A4}
 
 /*modal*/
 .modal {
